@@ -15,7 +15,7 @@ body {
 
 .link:hover,
 .link:focus, .link:active {
-  color: var(--blue-color)
+  color: var(--blue-color);
 }
 
 .logo-first-word,
@@ -29,7 +29,7 @@ body {
 }
 
 .logo-first-word {
-  color: var(--blue-color)
+  color: var(--blue-color);
 }
 
 .logo-second-word {
