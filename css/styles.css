@@ -1,0 +1,119 @@
+:root {
+  --main-color: #212121;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.unstyled-list {
+  list-style: none;
+}
+
+header li a:hover,
+header li a:focus header li a:active {
+  color: #2196f3;
+}
+
+.logo-first-word,
+.logo-second-word {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-first-word {
+  color: #2196f3;
+}
+
+.logo-second-word {
+  color: #000000;
+}
+
+header li a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.header-right-side li a {
+  color: #757575;
+}
+
+.button-menu li button:hover,
+.button-menu li button:focus,
+.button-menu li button:active {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.button-menu li button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--main-color);
+  border: none;
+  cursor: pointer;
+}
+
+.project-card li img{
+    width: 370px;
+    height: 294px;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+
+.project-title {
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+
+address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.address li a {
+  text-decoration: none;
+  line-height: 1.87;
+}
+
+.address a:hover,
+.address a:focus,
+.address a:active {
+  color: #2196f3;
+}
+
+.contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.location {
+  color: #ffffff;
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.footer-logo-second-word {
+  color: #ffffff;
+}
