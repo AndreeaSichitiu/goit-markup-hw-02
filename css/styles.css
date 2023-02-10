@@ -1,5 +1,7 @@
 :root {
   --main-color: #212121;
+  --blue-color:  #2196f3;
+  --main-backgroud: #2f303a;
 }
 
 body {
@@ -11,9 +13,9 @@ body {
   list-style: none;
 }
 
-header li a:hover,
-header li a:focus header li a:active {
-  color: #2196f3;
+.link:hover,
+.link:focus, .link:active {
+  color: var(--blue-color)
 }
 
 .logo-first-word,
@@ -27,7 +29,7 @@ header li a:focus header li a:active {
 }
 
 .logo-first-word {
-  color: #2196f3;
+  color: var(--blue-color)
 }
 
 .logo-second-word {
@@ -47,14 +49,15 @@ header li a {
   color: #757575;
 }
 
-.button-menu li button:hover,
-.button-menu li button:focus,
-.button-menu li button:active {
-  background-color: #2196f3;
+.button-menu:hover,
+.button-menu:focus,
+.button-menu:active {
+  background-color: var(--blue-color);
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.button-menu li button {
+.button-menu {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -96,12 +99,6 @@ address {
   line-height: 1.87;
 }
 
-.address a:hover,
-.address a:focus,
-.address a:active {
-  color: #2196f3;
-}
-
 .contact {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -111,7 +108,7 @@ address {
 }
 
 footer {
-  background-color: #2f303a;
+  background-color: var(--main-backgroud);
 }
 
 .footer-logo-second-word {
