@@ -94,17 +94,16 @@ address {
   letter-spacing: 0.03em;
 }
 
-.address li a {
+.contact {
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   line-height: 1.87;
 }
 
-.contact {
-  color: rgba(255, 255, 255, 0.6);
-}
-
 .location {
   color: #ffffff;
+  text-decoration: none;
+  line-height: 1.87;
 }
 
 footer {
